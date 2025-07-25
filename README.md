@@ -23,19 +23,19 @@ SOFTWARE REQUIREMENTS:
 
 🔄 HOW IT WORKS – Key Points
 
-TEMPERATURE SENSOR READS ENVIRONMENT.
+TEMPERATURE SENSOR READS ENVIRONMENT:
 A sensor like LM35 or DHT11 continuosly measures the temperature.
 
-MICROCONTROLLER MONITORS THE DATA
+MICROCONTROLLER MONITORS THE DATA:
 A microcontroller checks the sensor readings at regular intervals.
 
-THRESHOLD COMPARISON
+THRESHOLD COMPARISON:
 The system compares the current temperature with a predefined threshold value.
 
-SENDS SMS IF LIMIT IS CROSSED.
+SENDS SMS IF LIMIT IS CROSSED:
 If the temperature exceeds the threshold ,the GSM module sends an SMS alert to a saved mobile number.
 
-SYSTEM KEEPS MONITIORING
+SYSTEM KEEPS MONITIORING:
 The temperature keeps being monitored. If it falls back below the threshold, the fan is turned OFF automatically.
 
 
