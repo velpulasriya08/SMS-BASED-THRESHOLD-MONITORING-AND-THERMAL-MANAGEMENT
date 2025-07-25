@@ -35,6 +35,22 @@ The system compares the current temperature with a predefined threshold value.
 SENDS SMS IF LIMIT IS CROSSED:
 If the temperature exceeds the threshold ,the GSM module sends an SMS alert to a saved mobile number.
 
+WORKFLOW DIAGRAM:
+start
+  |
+Intialize modules
+  |
+Read tempeartures
+  |
+Is Temp > Threshold?
+   |          |
+Yes            No
+ |             |
+Send SMS     Wait & Read Again.
+ |
+Loop Back.
+
+
 MODULES USED IN THE PROJECT.
 
     🟦 MICROCONTROLLER MODULE
