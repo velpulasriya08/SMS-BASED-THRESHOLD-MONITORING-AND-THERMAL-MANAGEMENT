@@ -57,10 +57,15 @@ MODULES USED IN THE PROJECT.
 📦 HOW TO RUN
 
 STEPS TO RUN THE PROJECT:
+
  1.connect all components as per circuit diagram.
+ 
  2.upload the code to Arduino via Arduino IDE.
+ 
  3.Insert a SIM card into the GSM module.
+ 
  4.Power the sytem(12v or regulated power).
+ 
  5.Monitor temperature-SMS will be sent if threshold is exceeded.
     
 
