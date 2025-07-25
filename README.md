@@ -47,9 +47,9 @@ WORKFLOW DIAGRAM:
  ┌───┴──────────┐       
  Yes           No
 Send SMS    Keep Monitoring
-Alert User  (Read Again After Delay)
+Alert User 
      │
-🔄 Loop Back to Sensor Reading
+Loop Back to Sensor Reading
 
 MODULES USED IN THE PROJECT.
 
