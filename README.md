@@ -36,20 +36,26 @@ SENDS SMS IF LIMIT IS CROSSED:
 If the temperature exceeds the threshold ,the GSM module sends an SMS alert to a saved mobile number.
 
 WORKFLOW DIAGRAM:
-start
-  |
-Intialize modules
-  |
-Read tempeartures
-  |
-Is Temp > Threshold?
-   |          |
-Yes            No
- |             |
-Send SMS     Wait & Read Again.
- |
-Loop Back.
-
+🟢 System Starts
+     │
+     ▼
+🔧 Initialize Sensors & GSM Module
+     │
+     ▼
+🌡️ Read Temperature Data
+     │
+     ▼
+❓ Is Temperature > Threshold?
+     │
+ ┌───┴──────────┐
+ │              │
+ ▼              ▼
+📤 Yes       ✅ No
+Send SMS    Keep Monitoring
+Alert User  (Read Again After Delay)
+     │
+     ▼
+🔄 Loop Back to Sensor Reading
 
 MODULES USED IN THE PROJECT.
 
