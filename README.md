@@ -55,22 +55,29 @@ Alert User
 Loop Back to Sensor Reading
 
 MODULES USED IN THE PROJECT.
+
    🟦 MICROCONTROLLER MODULE
         Example: Arduino Uno, Arduino Nano, PIC, or ATmega328.
         Purpose: Acts as the brain of the system. It reads sensor data and sends commands to the GSM module.
-    🌡️ TEMPERATURE SENSOR
+        
+ 🌡️ TEMPERATURE SENSOR
         Example: LM35, DHT11, or DS18B20
         Purpose: Continuously senses the temperature of the environment.
-    📶 GSM MODULE
+        
+📶 GSM MODULE
         Purpose: Sends SMS alerts to a registered mobile number when temperature crosses a certain threshold.
-    🔋 POWER SUPPLY MODULE
+        
+🔋 POWER SUPPLY MODULE
         Example: 12V adapter, USB power bank, or regulated power supply
         Purpose: Supplies power to the microcontroller and GSM module.
-    🧪 DISPLAY MODULE
+        
+ 🧪 DISPLAY MODULE
         Example: 16x2 LCD or OLED Display (I2C).
         Purpose: Displays the current temperature and system status (optional for user visibility).
-    🧰 JUMPERWIRES,BREADBOARD OR PCB
+        
+🧰 JUMPERWIRES,BREADBOARD OR PCB
         Purpose: For circuit connections and mounting the components.
+        
 
 📦 HOW TO RUN
 
