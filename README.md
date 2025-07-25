@@ -21,11 +21,9 @@ SOFTWARE REQUIREMENTS:
 ➢ KEIL-C COMPILER
 ➢ FLASH MAGIC
 
-🧠 HOW IT WORKS
+🔄 HOW IT WORKS – Key Points
 
-🔄 How It Works – Key Points
-
-    Temperature Sensor Reads Environment
+    TEMPERATURE SENSOR READS ENVIRONMENT.
 
         A sensor like LM35 or DHT11 continuously measures the temperature (and optionally humidity).
 
