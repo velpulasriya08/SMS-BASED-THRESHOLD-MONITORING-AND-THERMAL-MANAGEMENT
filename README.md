@@ -23,14 +23,9 @@ SOFTWARE REQUIREMENTS:
 
 🔄 HOW IT WORKS – Key Points
 
-    TEMPERATURE SENSOR READS ENVIRONMENT.
-
-        A sensor like LM35 or DHT11 continuously measures the temperature (and optionally humidity).
-
-    Microcontroller Monitors the Data
 TEMPERATURE SENSOR READS ENVIRONMENT.
 
-    A sensor like LM35 or DHT11 continuously measures the temperature (and optionally humidity).
+    A sensor like LM35 or DHT11 continuosly measures the temperature.
 
 Microcontroller Monitors the Data
 
