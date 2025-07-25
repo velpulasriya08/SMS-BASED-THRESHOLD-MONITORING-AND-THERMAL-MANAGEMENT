@@ -43,8 +43,7 @@ WORKFLOW DIAGRAM:
 🌡️ Read Temperature Data
      │
 ❓ Is Temperature > Threshold?
-     │
- ┌───┴──────────┐       
+     │    
  Yes           No
 Send SMS    Keep Monitoring
 Alert User 
