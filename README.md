@@ -23,8 +23,8 @@ SOFTWARE REQUIREMENTS:
 
 🧠 HOW IT WORKS
 
-    Sensor Data Collection
-    The temperature sensor continuously reads the temperature of the environment.
+    SENSOR DATA COLLECTION
+    the temperature sensor continuously reads the temperature of the environment.
 
     Threshold Comparison
     The microcontroller checks whether the temperature is within the safe threshold range.
