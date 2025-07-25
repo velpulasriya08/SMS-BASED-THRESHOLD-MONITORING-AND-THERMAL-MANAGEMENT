@@ -101,5 +101,17 @@ SMS CONTENT 	         ACTION
 
 1234I	     --        Replies with current temperature reading.
 
+USE CASES:
+
+remote server rooms.
+
+Industrial Macines.
+
+cold storage units.
+
+Greenhouses.
+
+
+
 
 
