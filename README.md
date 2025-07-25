@@ -38,7 +38,7 @@ If the temperature exceeds the threshold ,the GSM module sends an SMS alert to a
 MODULES USED IN THE PROJECT.
 
     🟦 MICROCONTROLLER MODULE
-        Example: Arduino Uno, Arduino Nano, or ATmega328
+        Example: Arduino Uno, Arduino Nano, PIC, or ATmega328
         Purpose: Acts as the brain of the system. It reads sensor data and sends commands to the GSM module.
     🌡️ TEMPERATURE SENSOR
         Example: LM35, DHT11, or DS18B20
