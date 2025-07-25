@@ -45,6 +45,25 @@ Activates Cooling System
 
 System Keeps Monitoring
 
+
+How It Works – Key Points
+
+    Temperature Sensor Reads Environment
+
+        A sensor like LM35 or DHT11 continuously measures the temperature (and optionally humidity).
+
+    Microcontroller Monitors the Data
+
+        A microcontroller (e.g., Arduino) checks the sensor readings at regular intervals.
+
+    Threshold Comparison
+
+        The system compares the current temperature with a predefined threshold value (e.g., 40°C).
+
+    Sends SMS if Limit is Crossed
+
+        If the temperature exceeds the threshold, the GSM module sends an SMS alert to a saved mobile number.
+
     The temperature keeps being monitored. If it falls back below the threshold, the fan is turned OFF automatically.
 
 Repeat Alerts as Needed
