@@ -28,27 +28,30 @@ SOFTWARE REQUIREMENTS:
         A sensor like LM35 or DHT11 continuously measures the temperature (and optionally humidity).
 
     Microcontroller Monitors the Data
+TEMPERATURE SENSOR READS ENVIRONMENT.
 
-        A microcontroller (e.g., Arduino) checks the sensor readings at regular intervals.
+    A sensor like LM35 or DHT11 continuously measures the temperature (and optionally humidity).
 
-    Threshold Comparison
+Microcontroller Monitors the Data
 
-        The system compares the current temperature with a predefined threshold value (e.g., 40°C).
+    A microcontroller (e.g., Arduino) checks the sensor readings at regular intervals.
 
-    Sends SMS if Limit is Crossed
+Threshold Comparison
 
-        If the temperature exceeds the threshold, the GSM module sends an SMS alert to a saved mobile number.
+    The system compares the current temperature with a predefined threshold value (e.g., 40°C).
 
-    Activates Cooling System
+Sends SMS if Limit is Crossed
 
-        At the same time, a cooling fan or other thermal device is switched ON via a relay.
+    If the temperature exceeds the threshold, the GSM module sends an SMS alert to a saved mobile number.
 
-    System Keeps Monitoring
+Activates Cooling System
 
-        The temperature keeps being monitored. If it falls back below the threshold, the fan is turned OFF automatically.
+    At the same time, a cooling fan or other thermal device is switched ON via a relay.
 
-    Repeat Alerts as Needed
+System Keeps Monitoring
 
-        The system can be set to send repeated alerts or update messages based on your setup.
+    The temperature keeps being monitored. If it falls back below the threshold, the fan is turned OFF automatically.
 
+Repeat Alerts as Needed
 
+    The system can be set to send repeated alerts or update messages based on your setup.
