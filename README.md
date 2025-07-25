@@ -88,9 +88,9 @@ STEPS TO RUN THE PROJECT:
 
 SMS CONTENT 	         ACTION
 
-1234M92xxxxxx70        30 sets temperature threshold to 30 degreec.
+1234M92xxxxxx70     --   30 sets temperature threshold to 30 degreec.
 
-1234I	             Replies with current temperature reading.
+1234I	     --        Replies with current temperature reading.
 
 
 
