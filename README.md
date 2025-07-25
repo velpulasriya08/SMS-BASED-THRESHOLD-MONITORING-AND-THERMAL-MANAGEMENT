@@ -84,7 +84,7 @@ STEPS TO RUN THE PROJECT:
  
  5.Monitor temperature-SMS will be sent if threshold is exceeded.
 
-EXAMPLE SMS COMMANDS
+/*EXAMPLE SMS COMMANDS*/
 
 SMS CONTENT 	         ACTION
 
