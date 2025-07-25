@@ -23,20 +23,34 @@ SOFTWARE REQUIREMENTS:
 
 🧠 HOW IT WORKS
 
-    SENSOR DATA COLLECTION
-    the temperature sensor continuously reads the temperature of the environment.
+🔄 How It Works – Key Points
+
+    Temperature Sensor Reads Environment
+
+        A sensor like LM35 or DHT11 continuously measures the temperature (and optionally humidity).
+
+    Microcontroller Monitors the Data
+
+        A microcontroller (e.g., Arduino) checks the sensor readings at regular intervals.
 
     Threshold Comparison
-    The microcontroller checks whether the temperature is within the safe threshold range.
 
-    SMS Alert via GSM Module
+        The system compares the current temperature with a predefined threshold value (e.g., 40°C).
 
-        If the temperature crosses the set limit, an SMS is sent to a predefined phone number.
+    Sends SMS if Limit is Crossed
 
-        The message includes real-time temperature data and a warning message.
+        If the temperature exceeds the threshold, the GSM module sends an SMS alert to a saved mobile number.
 
-    Thermal Management Activation
+    Activates Cooling System
 
-        Simultaneously, a cooling system (like a fan) is turned on automatically using a relay.
+        At the same time, a cooling fan or other thermal device is switched ON via a relay.
 
-        Once the temperature drops back to a normal range, the fan is turned off.
+    System Keeps Monitoring
+
+        The temperature keeps being monitored. If it falls back below the threshold, the fan is turned OFF automatically.
+
+    Repeat Alerts as Needed
+
+        The system can be set to send repeated alerts or update messages based on your setup.
+
+
