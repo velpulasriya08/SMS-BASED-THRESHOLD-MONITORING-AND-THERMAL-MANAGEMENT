@@ -10,6 +10,7 @@ It’s especially useful for applications where overheating can damage equipment
 REQUIREMENTS:
 HARDWARE REQUIREMENTS:
 ➢ LPC 2148
+
 ➢ GSM MODULE (M660A)
 ➢ 16X2 LCD
 ➢ LM35
