@@ -9,13 +9,19 @@ It’s especially useful for applications where overheating can damage equipment
 
 REQUIREMENTS:
 HARDWARE REQUIREMENTS:
-➢ LPC 2148
+
+➢ LPC2148
 
 ➢ GSM MODULE (M660A)
+
 ➢ 16X2 LCD
+
 ➢ LM35
+
 ➢ BUZZER
+
 ➢ AT25LC512
+
 
 SOFTWARE REQUIREMENTS:
 ➢ PROGRAMMING IN EMBEDDED C
