@@ -50,24 +50,21 @@ If the temperature exceeds the threshold ,the GSM module sends an SMS alert to a
 WORKFLOW DIAGRAM:
 
 🟢 System Starts
-      │
+
       
 🔧 Initialize Sensors & GSM Module
-      │
+
       
 🌡️ Read Temperature Data
-      │
+
       
-❓ Is Temperature > Threshold?
-      │
-      
-Yes    /   No
-    |        |
-    
+❓ Is Temperature > Threshold
+
 Send SMS    Keep Monitoring
 
+    
 Alert User 
-     │
+     
      
 Loop Back to Sensor Reading
 
