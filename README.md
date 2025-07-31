@@ -36,7 +36,7 @@ SOFTWARE REQUIREMENTS:
 🔄 HOW IT WORKS – Key Points
 
 TEMPERATURE SENSOR READS ENVIRONMENT:
-A sensor like LM35 or DHT11 continuosly measures the temperature.
+A sensor like LM35  continuosly measures the temperature.
 
 MICROCONTROLLER MONITORS THE DATA:
 A microcontroller checks the sensor readings at regular intervals.
@@ -115,6 +115,18 @@ SMS CONTENT 	         ACTION
 1234M92xxxxxx70     --   30 sets temperature threshold to 30 degreec.
 
 1234I	     --        Replies with current temperature reading.
+
+
+🏆 Benefits
+Reliable and independent from internet infrastructure.
+
+Easy deployment in rural, remote, or industrial settings.
+
+Cost-effective solution for critical temperature monitoring.
+
+Expandable for humidity, motion, or gas detection.
+
+
 
 USE CASES:
 
