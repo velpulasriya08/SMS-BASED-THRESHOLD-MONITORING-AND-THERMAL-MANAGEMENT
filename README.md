@@ -118,13 +118,14 @@ SMS CONTENT 	         ACTION
 
 
 🏆 Benefits
-Reliable and independent from internet infrastructure.
 
-Easy deployment in rural, remote, or industrial settings.
+1. Reliable and independent from internet infrastructure.
 
-Cost-effective solution for critical temperature monitoring.
+2. Easy deployment in rural, remote, or industrial settings.
 
-Expandable for humidity, motion, or gas detection.
+3. Cost-effective solution for critical temperature monitoring.
+
+4. Expandable for humidity, motion, or gas detection.
 
 
 
